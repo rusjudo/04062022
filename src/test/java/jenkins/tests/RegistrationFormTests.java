@@ -1,5 +1,6 @@
 package jenkins.tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -15,7 +16,7 @@ public class RegistrationFormTests extends TestBase{
 
 
     @Test
-
+    @DisplayName("Successful fill registration test")
     void fillFormTest() {
         step("Open Reg Form", () -> {
                     open("/automation-practice-form");

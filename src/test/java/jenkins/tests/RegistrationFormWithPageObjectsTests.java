@@ -51,8 +51,5 @@ public class RegistrationFormWithPageObjectsTests {
 
 
     }
-    @AfterEach
-    void setEnd() {
-        closeWebDriver();
-    }
+
 }
